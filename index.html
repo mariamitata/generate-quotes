@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="main-wrapper">
+        <div id="quote-box">
+            <div class="quote-container">
+                <div id="text"></div>
+
+            </div>
+            <div class="author-container">
+                <div id="author"></div>
+            </div>
+            <div class="quote-bottom">
+             <ul class="cosials">
+                 <li><a class="twitter-share-button" id="tweet-quote"
+                    href="https://twitter.com/intent/tweet?text=quotes">Tweet
+                  </a></li>
+             </ul>   
+            <button id="new-quote" onclick="fetchQuote()">New Quote</button>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
